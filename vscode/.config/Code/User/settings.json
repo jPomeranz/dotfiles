@@ -1,0 +1,14 @@
+{
+    // "editor.formatOnSave": true,
+    "eslint.autoFixOnSave": true,
+    "workbench.colorTheme": "Ayu Dark",
+    "explorer.autoReveal": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "files.trimTrailingWhitespace": false,
+    "explorer.confirmDragAndDrop": false,
+    "files.insertFinalNewline": true,
+    "debug.node.autoAttach": "on",
+    "editor.fontFamily": "Hack, Menlo, Monaco, 'Courier New', monospace",
+    "window.zoomLevel": 0,
+    "workbench.iconTheme": "ayu"
+}
