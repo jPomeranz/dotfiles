@@ -1,0 +1,20 @@
+{
+    "editor.detectIndentation": true,
+    "editor.formatOnSave": true,
+    "[javascript]": {
+        "editor.formatOnSave": false
+    },
+    "eslint.autoFixOnSave": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "debug.node.autoAttach": "on",
+    "workbench.colorTheme": "Ayu Dark",
+    "workbench.iconTheme": "ayu",
+    "editor.fontFamily": "Hack, monospace",
+    "files.trimTrailingWhitespace": true,
+    "explorer.autoReveal": false,
+    "explorer.confirmDragAndDrop": false,
+    "files.insertFinalNewline": true,
+    "window.zoomLevel": 0,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
+}
