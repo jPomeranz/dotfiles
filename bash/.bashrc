@@ -27,6 +27,7 @@ genPrompt() {
 
 # Defaults
 export EDITOR=vim
+export TERM=xterm-256color
 
 # Aliases
 alias where='type -all'
