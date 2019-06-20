@@ -26,6 +26,7 @@ set autowrite
 set clipboard=unnamed,unnamedplus
 set cursorline
 set mouse=a
+set timeoutlen=1000 ttimeoutlen=0
 
 "Theme
 set termguicolors
