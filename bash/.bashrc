@@ -5,11 +5,12 @@ genPrompt() {
    local LastCommand="$?"
    local Default='\[\e[0m\]'
    local Red='\[\e[0;31m\]'
+   local Green='\[\e[0;32m\]'
    local Yellow='\[\e[0;33m\]'
-   local Blue='\[\e[38;5;26m\]'
-   local White='\[\e[1;37m\]'
-   local Green='\[\e[38;5;118m\]'
-   local Orange='\[\e[38;5;208m\]'
+   local Blue='\[\e[0;34m\]'
+   local Magenta='\[\e[0;35m\]'
+   local Cyan='\[\e[0;36m\]'
+   local White='\[\e[0;97m\]'
 
    if [ $LastCommand -ne "0" ]; then
       Status="${Yellow}!"
@@ -23,7 +24,7 @@ genPrompt() {
       User="${Green}\u${Default}"
    fi
 
-   PS1="${Status}${User}${White}@${Blue}\h ${Orange}\w${Green} $(if type -t __git_ps1 > /dev/null; then __git_ps1 " (%s)"; fi) ${Blue}$ ${Default}"
+   PS1="${Status}${User}${White}@${Blue}\h ${Yellow}\w${Cyan} $(if type -t __git_ps1 > /dev/null; then __git_ps1 " (%s)"; fi) ${Magenta}$ ${Default}"
 }
 
 # Defaults
