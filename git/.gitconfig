@@ -27,6 +27,7 @@
 	sp = stash pop
 	ss = stash show -p
 	st = status
+	su = stash --keep-index -u
 	u = reset HEAD --
 	undo = reset --soft HEAD^
 [color]
