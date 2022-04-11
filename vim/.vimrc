@@ -7,7 +7,6 @@ endif
 "Plugins
 call plug#begin('~/.vim/plugged')
 Plug 'elzr/vim-json'
-Plug 'tpope/vim-fugitive'
 Plug 'ayu-theme/ayu-vim'
 Plug 'w0rp/ale'
 Plug 'itchyny/lightline.vim'
