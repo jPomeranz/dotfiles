@@ -34,3 +34,7 @@
 	ui = auto
 [status]
 	showUntrackedFiles = all
+[credential]
+	helper = osxkeychain
+[push]
+	autoSetupRemote = true
