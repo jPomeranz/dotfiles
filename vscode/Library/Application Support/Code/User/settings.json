@@ -1,26 +1,33 @@
 {
-  "editor.detectIndentation": true,
-  "editor.formatOnSave": false,
   "[go]": {
     "editor.formatOnSave": true
   },
-  "go.useLanguageServer": true,
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "explorer.autoReveal": false,
-  "explorer.confirmDragAndDrop": false,
-  "files.trimTrailingWhitespace": true,
-  "files.insertFinalNewline": false,
-  "window.zoomLevel": 0,
-  "editor.suggestSelection": "first",
-  "editor.fontFamily": "Hack, monospace",
-  "workbench.colorTheme": "Ayu Mirage Bordered",
-  "workbench.iconTheme": "ayu",
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
-  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[python]": {
+    "editor.formatOnType": true
+  },
   "[typescript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
-  "go.autocompleteUnimportedPackages": true
+  "editor.detectIndentation": true,
+  "editor.fontFamily": "Hack, monospace",
+  "editor.formatOnSave": false,
+  "editor.suggestSelection": "first",
+  "explorer.autoReveal": false,
+  "explorer.confirmDragAndDrop": false,
+  "extensions.ignoreRecommendations": true,
+  "files.insertFinalNewline": false,
+  "files.trimTrailingWhitespace": true,
+  "go.autocompleteUnimportedPackages": true,
+  "go.useLanguageServer": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "telemetry.telemetryLevel": "off",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "update.showReleaseNotes": false,
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "workbench.editor.untitled.hint": "hidden",
+  "workbench.startupEditor": "none",
+  "workbench.welcomePage.walkthroughs.openOnInstall": false
 }

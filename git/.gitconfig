@@ -38,3 +38,5 @@
 	helper = osxkeychain
 [push]
 	autoSetupRemote = true
+[pull]
+	rebase = true
