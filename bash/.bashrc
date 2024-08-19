@@ -79,6 +79,8 @@ function extract {
 
 function killport() { kill $(lsof -t -i:$1); }
 
+function listssh() { sudo lsof -i -n | egrep '\<ssh\>'; }
+
 # Memes
 if (which fortune &> /dev/null) && (which cowthink &> /dev/null); then
     fortune -n 300 | tr '\n' ' ' | cowthink -f tux

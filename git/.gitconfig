@@ -24,6 +24,7 @@
 	rbs = rebase --skip
 	s = stash
 	sa = stash apply
+	sk = stash --keep-index
 	sp = stash pop
 	ss = stash show -p
 	st = status
