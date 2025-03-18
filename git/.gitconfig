@@ -3,6 +3,7 @@
 	email = jrpomeranz@yahoo.com 
 [rerere]
 	enabled = true
+	autoupdate = true
 [core]
 	excludesfile = ~/.gitignore_global
 	autocrlf = input
@@ -39,5 +40,26 @@
 	helper = osxkeychain
 [push]
 	autoSetupRemote = true
+	default = simple
+	followTags = true
 [pull]
 	rebase = true
+[column]
+	ui = auto
+[branch]
+	sort = -committerdate
+[tag]
+	sort = version:refname
+[init]
+	defaultBranch = main
+[diff]
+	algorithm = histogram
+	colorMoved = plain
+	mnemonicPrefix = true
+	renames = true
+[help]
+	autocorrect = prompt
+[rebase]
+	autoSquash = true
+	autoStash = true
+	updateRefs = true
