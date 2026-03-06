@@ -32,6 +32,9 @@
 	su = stash --keep-index -u
 	u = reset HEAD --
 	undo = reset --soft HEAD^
+	wta = worktree add -b
+	wtl = worktree list
+	wtr = worktree remove
 [color]
 	ui = auto
 [status]
