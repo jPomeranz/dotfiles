@@ -28,6 +28,7 @@
 	sk = stash --keep-index
 	sp = stash pop
 	ss = stash show -p
+	sst = stash push -S
 	st = status
 	su = stash --keep-index -u
 	u = reset HEAD --
